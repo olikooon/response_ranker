@@ -1,0 +1,41 @@
+# Environment variables
+.env
+.env.local
+
+# SSL certificates
+certbot/
+*.pem
+*.key
+*.crt
+
+# Logs
+*.log
+nginx-logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.db
+
+
+
